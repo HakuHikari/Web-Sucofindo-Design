@@ -1,0 +1,106 @@
+ .center-left-text {
+    text-align: left;
+    color: white;
+    font-family: "Montserrat";
+    font-size: 40px;
+    font-weight: 600;
+    padding-left: 40px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* CSS untuk kontainer judul */
+.container-content {
+    margin-bottom: 100px;
+}
+
+.Beranda {
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-weight: 500;
+    color:  #1795D1;
+    margin-left: 40px;
+    text-decoration: none;
+}
+.Arti-Logo{
+    color:  #1795D1;
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-weight: 500;
+    color:  #1795D1;
+    text-decoration: none;
+
+}
+
+/* CSS untuk judul kontainer */
+.title-text {
+    font-family: "Montserrat";
+    font-size: 32px;
+    margin-top: 35px;
+    font-weight: 700;
+    font-weight: bold;
+}
+
+/* CSS untuk garis gradient */
+.gradient-line {
+    width: 10%;
+    height: 6px;
+    background: linear-gradient(to right, orange, white);
+    margin-bottom: 30px;
+}
+
+/* CSS untuk gambar */
+.image-pop {
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+/* CSS untuk teks pada sisi kanan */
+.li-right {
+    font-size: 17px;
+    margin-left: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #636363;
+}
+
+/* CSS untuk teks konten */
+.content-text p {
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #636363;
+    margin-bottom: 20px;
+}
+
+/* CSS untuk tombol download */
+.download-button {
+    width: 80px;
+    height: 40px;
+    position: relative;
+    padding: 15px 30px;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #04A1E3;
+    background: transparent;
+    cursor: pointer;
+    transition: ease-out 0.5s;
+    border: 2px solid #04A1E3;
+    border-radius: 10px;
+    box-shadow: inset 0 0 0 0 #04A1E3;
+}
+
+/* Efek hover pada tombol download */
+.download-button:hover {
+    color: white;
+    box-shadow: inset 0 -100px 0 0 #04A1E3;
+}
+
+/* Efek aktif pada tombol download */
+.download-button:active {
+    transform: scale(0.9);
+}
+
+/* Margin kanan untuk gambar kecil */
+.small-image {
+    margin-right: 10px;
+}

@@ -1,0 +1,81 @@
+.gradient-line-left {
+    width: 20%;
+    height: 6px;
+    background: linear-gradient(to right, orange, white);
+    margin-bottom: 20px;
+}
+
+
+.center-left-text {
+    text-align: left;
+    color: white;
+    font-family: "Montserrat";
+    font-size: 40px;
+    font-weight: 600;
+    padding-left: 40px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+.Beranda {
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-weight: 500;
+    color: #1795D1;
+    margin-left: 40px;
+    text-decoration: none;
+}
+
+.Layanan {
+    color: #1795D1;
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-weight: 500;
+    color: #1795D1;
+    text-decoration: none;
+
+}
+
+
+/* CSS tambahan untuk section baru */
+.section-title {
+    color: #333333;
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.section-content {
+    color: #666;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+
+}
+
+/* Mengatur margin atas dan bawah untuk section baru */
+
+.img-fluid {
+    max-height: 350px;
+}
+
+.sertifikasi-container{
+    margin-top: 40px;
+}
+
+.Konsultasi-container{
+    margin-top: 60px;
+}
+
+.inspeksi-container{
+    margin-top: 40px;
+}
+
+.pelatihan-container{
+    margin-top: 60px;
+}
+
+.pengujian-container{
+    margin-top: 40px;
+    margin-bottom: 60px;
+}

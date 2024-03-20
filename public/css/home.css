@@ -1,0 +1,47 @@
+
+.hero-section .btn-primary {
+    background-color: #003380;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.hero-section .btn-primary:hover {
+    background-color: #0077c2;
+}
+
+.hero-section img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 1rem;
+}
+
+.container .hero-img {
+    width: 100%; /* misalnya, lebar gambar 600 piksel */
+    height: auto; /* agar proporsi gambar tetap sesuai aslinya */
+    display: block; /* agar gambar ditampilkan sebagai blok */
+    margin: 0 auto; /* untuk mengatur posisi gambar ke tengah */
+}
+
+.card {
+    margin-top: 40px;
+}
+
+.card.border-0 {
+    border: 1px solid transparent;
+    /* Tambahkan border transparan */
+    box-shadow: none;
+    /* Hapus box-shadow secara default */
+    transition: border-color 0.5s ease-in-out, box-shadow 1.5s ease-in-out !important;
+    /* Animasi saat border dan box-shadow berubah */
+}
+
+/* Tampilkan border dan box-shadow saat hover */
+.card.border-0:hover {
+    border-color: black !important;
+    /* Ganti warna border saat hover */
+    box-shadow: 0 0 10px 0 black;
+    /* Tambahkan box-shadow berwarna hitam saat hover */
+}
+
